@@ -1,0 +1,44 @@
+:root {
+  --color-brand: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-primary-light: #ffffff;
+}
+
+/* Base styles*/
+
+ul {
+  list-style-type: none;
+}
+/* Button */
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #011c44;
+  background-color: transparent;
+  border: 2px solid var(--color-brand-light);
+}
+/* link */
+.link {
+  color: #011c44;
+}
+.link:hover {
+  color: var(--color-brand-light);
+}
+
+/* hero sectiion */
+.hero-title {
+  color: var(--color-brand-light);
+}
+.section-title {
+  color: #011c44;
+}
+.section-title .accent {
+  color: var(--color-brand);
+}
